@@ -1,0 +1,123 @@
+#flex{
+  display: flex;
+  flex-direction: row;
+}
+#div1{
+	font-size: 12px;
+  background-color: lightgrey;
+  margin-right: 200px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+p{
+	background-color: #2196f3;
+	font-size: 25px;
+	margin-top: 1px;
+}
+.user_s{
+	width: 360px;
+}
+.form{
+	border-collapse: collapse;
+}
+.form th{
+	text-align: left;
+	background-color: white;
+	padding: 4px 25px 4px 8px;
+}
+.form td{
+	border: 1px solid grey;
+	padding: 4px 8px;
+}
+#form1{
+	padding-bottom: 25px;
+}
+table tr{
+	background-color: white;
+}
+#container{
+	display: flex;
+	flex-direction: row;
+
+}
+#container div{
+	text-align: center;
+	color: #2196f3;
+	margin: 5px;
+	padding: 5px;
+	background-color: white;
+}
+#div2{
+	font-size: 10px;
+  background-color: lightgrey;
+  margin-top: 60px;
+  padding-right: 10px;
+}
+label{
+	font-size: 15px;
+	padding-left: 10px;
+}
+#email{
+	margin-left: 70px;
+  width: 340px;
+  }
+#pass{
+	margin-left: 50px;
+}
+#coun{
+	width: 145px;
+  margin-left: 13px;
+}
+#active{
+	margin-left: 70px;
+}
+#admin{
+	margin-left: 80px;
+}
+#admin1{
+	margin-left: 50px;
+}
+#display{
+	margin-left: 30px;
+}
+#submit{
+	margin-left: 47px;
+}
+#submit1{
+	margin-left: 50px;
+}
+#trans{
+	margin-left: 45px;
+}
+#dash{
+	margin-left: 30px;
+}
+#dash1{
+	margin-left: 45px;
+}
+#show{
+	margin-left: 60px;
+}
+#priv{
+	margin-left: 45px;
+}
+#priv1{
+	margin-left: 45px;
+}
+#key{
+  margin-left: 55px;
+}
+#time{
+	margin-left: 27px;
+}
+#login{
+	margin-left: 35px;
+}
+#button1{
+	border: none;
+  color: white;
+  background: #2196f3;
+  margin-left: 130px;
+}

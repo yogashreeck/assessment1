@@ -1,0 +1,63 @@
+.top{
+	border-spacing: 30px;
+	font-family: monospace;
+	padding: 10px 80px 0px 80px;
+}
+.business1{
+  font-family: serif;
+  font-size: 20px;
+}
+#read{
+	text-decoration: underline;
+	color: #8be428;
+}
+#content{
+	color: darkcyan;
+}
+#letter{
+	color: white;
+	background-color: #709822;
+	border: solid;
+  border-radius: 62px;
+  border-style: none;
+  font-size: 25px;
+  padding: 15px 25px 15px 25px;
+}
+.bottom{
+	padding: 0px 90px 20px 100px;
+	border-spacing: 6px;
+
+}
+.img{
+	padding-right: 120px;
+}
+.Welcome{
+	font-family: none;
+  font-size: 28px;
+  padding-right: 600px;
+}
+.test{
+  font-family: none;
+  font-size: 28px;
+  padding-right: 90px;
+}
+.img img{
+	padding-right: 25px;
+	height: 200px;
+  width: 250px;
+
+}
+.img p{
+	font-family: monospace;
+}
+.para{
+	color: darkcyan;
+}
+.box{
+	padding-bottom: 45px;
+	background-color: #e1f5fe;
+	padding: 18px;
+}
+.name{
+	font-family: cursive;
+}
