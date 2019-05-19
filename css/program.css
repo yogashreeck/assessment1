@@ -1,58 +1,68 @@
-#flex{
-  display: flex;
-  flex-direction: row;
+.user-box{
+	margin-right: 665px;
+	background-color: #ececec;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px
 }
-#div1{
-	font-size: 12px;
-  background-color: #ececec;
-  margin-right: 200px;
-  padding-bottom: 30px;
-  margin-left: 40px;
-  margin-top: 60px;
-  font-style: initial;
-}
-p{
-	background-color: #6ab9f7;
+.usname{
 	font-size: 25px;
-	margin-top: 1px;
+	background-color: #66a5ff;
+	padding-left: 20px;
+    color: white;
 }
-.user_s{
-	width: 360px;
+.user-in{
+	width: 450px;
+	margin-top: 5px;
+    margin-left: 10px;
 }
-.form{
-	border-collapse: collapse;
+.grid-container{
+	display: grid;
+	grid-template-columns: 162px 147px 50px 78px 78px 80px;
+	margin-left: 10px;
+	grid-template-rows: repeat(12,25px);
+	padding-bottom: 20px;
 }
-.form th{
-	text-align: left;
+.grid-container > div{
+	padding: 2px;
 	background-color: white;
-	padding: 4px 25px 4px 8px;
+	margin-top: 2px;
+	font-size: 15px;
+	padding-left: 10px;
 }
-.form td{
-	border: 1px solid grey;
-	padding: 4px 8px;
-}
-#form1{
-	padding-bottom: 25px;
-}
-table tr{
-	background-color: white;
+.ybutton{
+	border: 1px solid;
+    background-color: #91ec31;
+    border-style: outset;
 }
 #container{
 	display: flex;
 	flex-direction: row;
-
+	margin-left: 20px;
+	padding-bottom: 20px;
 }
 #container div{
 	text-align: center;
-	color: #6ab9f7;
-	margin: 5px;
+	color: #66a5ff;
+	margin: 1px;
 	padding: 5px;
 	background-color: white;
 }
 #div2{
 	font-size: 10px;
   background-color: #ececec;
-  margin-top: 60px;
+  position: absolute;
+  left: 700px;
+  top: 140px;
+}
+.cuser{
+	font-size: 25px; 
+	background-color: #66a5ff;
+	color: white;
+	padding-left: 20px;
+}
+#form1{
+	margin: 20px 25px 30px 25px;
 }
 label{
 	font-size: 15px;
@@ -118,6 +128,7 @@ label{
 #button1{
 	border: none;
   color: white;
-  background: #6ab9f7;
+  background: #66a5ff;
   margin-left: 130px;
+  height: 25px;
 }
